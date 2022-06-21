@@ -21,3 +21,5 @@ It's more complicated then I imagine.
 `ngrok config add-authtoken TOKEN`
 To start a HTTP tunnel forwarding to your local port 80, run this next:
 `ngrok http 80`
+
+This approach didn't work, then the other possibility was Localtunnel, you need to install it locally following the command. `npm install -g localtunnel`, after that expose the port when your application is running. `lt -p <portNumber> -s <myjenkins>`.
